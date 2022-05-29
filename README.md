@@ -9,7 +9,7 @@ Para fazer a instalação do sistema, baixar os dois arquivos abaixo:
 
 Localizados no diretório:
 	
-	\Encrypt PWD\Debug\
+	\SCSSETUP\Debug
 
 Logo depois, executar o arquivo de Instalação:
 
