@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Collections.Generic;
 
 namespace Criptografia
@@ -11,7 +12,9 @@ namespace Criptografia
             {
                 try
                 {
-                    StreamWriter writer = new StreamWriter("database.txt");
+                    string folderPath = @"C:\Backup";
+                    if (!Directory.Exists(folderPath)) Directory.CreateDirectory(folderPath);
+                    StreamWriter writer = new StreamWriter(@"C:\Backup\database_scs.txt");
 
                     for (int count = 0; count < users.Length; count++)
                     {
@@ -33,7 +36,7 @@ namespace Criptografia
                     List<string> usuarios = new List<string>();
                     List<string> senhas = new List<string>();
 
-                    StreamReader reader = new StreamReader("database.txt");
+                    StreamReader reader = new StreamReader(@"C:\Backup\database_scs.txt");
                     string line = reader.ReadLine();
 
                     while (line != null)
