@@ -1,5 +1,5 @@
 # Encrypt-PWD
-Sistema de criptografia de senhas, com dados temporários, simulando um BD.
+Sistema de criptografia de senhas, com dados locais (file), simulando um BD.
 
 Para fazer a instalação do sistema, baixar os dois arquivos abaixo:
 	
