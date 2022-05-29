@@ -3,7 +3,7 @@ Sistema de criptografia de senhas, com dados temporários, simulando um BD.
 
 Para fazer a instalação do sistema, baixar os dois arquivos abaixo:
 	
-	Encrypt PWD.msi
+	SCSSETUP.msi
 	
 	setup.exe
 
