@@ -3,13 +3,13 @@ Sistema de criptografia de senhas, com dados locais (file), simulando um BD.
 
 Para fazer a instalação do sistema, baixar os dois arquivos abaixo:
 	
-	SCSSETUP.msi
+	SCSSetup.msi
 	
 	setup.exe
 
 Localizados no diretório:
 	
-	\SCSSETUP\Debug
+	\SCSSetup\Debug
 
 Logo depois, executar o arquivo de Instalação:
 
